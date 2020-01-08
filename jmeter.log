@@ -1,0 +1,337 @@
+2020-01-08 14:48:19,247 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2020-01-08 14:48:19,256 INFO o.a.j.JMeter: Loading user properties from: user.properties
+2020-01-08 14:48:19,256 INFO o.a.j.JMeter: Loading system properties from: C:\Users\gstarczewski\tools\apache-jmeter-5.2.1\bin\system.properties
+2020-01-08 14:48:19,257 INFO o.a.j.JMeter: Setting JMeter property: environment=ENV_PWC_AT_OBJECTIVITY
+2020-01-08 14:48:19,257 INFO o.a.j.JMeter: Setting JMeter property: debug=1
+2020-01-08 14:48:19,257 INFO o.a.j.JMeter: Setting JMeter property: threads=20
+2020-01-08 14:48:19,257 INFO o.a.j.JMeter: Setting JMeter property: rampUp=5
+2020-01-08 14:48:19,257 INFO o.a.j.JMeter: Setting JMeter property: loops=5
+2020-01-08 14:48:19,257 INFO o.a.j.JMeter: Setting JMeter property: targetThroughput=400
+2020-01-08 14:48:19,257 INFO o.a.j.JMeter: Setting JMeter property: maxThreadDuration=100
+2020-01-08 14:48:19,258 INFO o.a.j.JMeter: Copyright (c) 1998-2019 The Apache Software Foundation
+2020-01-08 14:48:19,258 INFO o.a.j.JMeter: Version 5.2.1
+2020-01-08 14:48:19,258 INFO o.a.j.JMeter: java.version=1.8.0_231
+2020-01-08 14:48:19,258 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2020-01-08 14:48:19,258 INFO o.a.j.JMeter: os.name=Windows 10
+2020-01-08 14:48:19,258 INFO o.a.j.JMeter: os.arch=amd64
+2020-01-08 14:48:19,258 INFO o.a.j.JMeter: os.version=10.0
+2020-01-08 14:48:19,258 INFO o.a.j.JMeter: file.encoding=Cp1250
+2020-01-08 14:48:19,258 INFO o.a.j.JMeter: java.awt.headless=true
+2020-01-08 14:48:19,258 INFO o.a.j.JMeter: Max memory     =4294967296
+2020-01-08 14:48:19,258 INFO o.a.j.JMeter: Available Processors =8
+2020-01-08 14:48:19,261 INFO o.a.j.JMeter: Default Locale=English (EN)
+2020-01-08 14:48:19,261 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2020-01-08 14:48:19,261 INFO o.a.j.JMeter: JMeterHome=C:\Users\gstarczewski\tools\apache-jmeter-5.2.1
+2020-01-08 14:48:19,261 INFO o.a.j.JMeter: user.dir  =C:\Users\gstarczewski\tools\apache-jmeter-5.2.1\scripts\PWC\SC
+2020-01-08 14:48:19,261 INFO o.a.j.JMeter: PWD       =C:\Users\gstarczewski\tools\apache-jmeter-5.2.1\scripts\PWC\SC
+2020-01-08 14:48:19,262 INFO o.a.j.JMeter: IP: 10.2.1.33 Name: NBGSTARCZEWSKI FullName: host.docker.internal
+2020-01-08 14:48:19,264 INFO o.a.j.JMeter: Setting property 'jmeter.reportgenerator.outputdir' to:'C:\Users\gstarczewski\tools\apache-jmeter-5.2.1\scripts\PWC\SC\report'
+2020-01-08 14:48:19,266 INFO o.a.j.s.FileServer: Default base='C:\Users\gstarczewski\tools\apache-jmeter-5.2.1\scripts\PWC\SC'
+2020-01-08 14:48:19,269 INFO o.a.j.s.FileServer: Set new base='C:\Users\gstarczewski\tools\apache-jmeter-5.2.1\scripts\PWC\SC'
+2020-01-08 14:48:19,356 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2020-01-08 14:48:19,361 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2020-01-08 14:48:19,365 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2020-01-08 14:48:19,371 INFO o.a.j.s.SaveService: Loading file: pwc_search.jmx
+2020-01-08 14:48:19,409 INFO o.a.j.p.h.c.CacheManager: Will only cache the following methods: [GET]
+2020-01-08 14:48:19,410 INFO o.a.j.p.h.c.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_
+2020-01-08 14:48:19,417 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-01-08 14:48:19,417 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-01-08 14:48:19,417 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-01-08 14:48:19,417 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-01-08 14:48:19,417 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2020-01-08 14:48:19,417 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2020-01-08 14:48:19,613 INFO o.a.j.JMeter: Creating summariser <summary>
+2020-01-08 14:48:19,617 INFO o.a.j.r.d.ReportGenerator: ReportGenerator will use for Parsing the separator: ','
+2020-01-08 14:48:19,617 INFO o.a.j.r.d.ReportGenerator: Will generate report at end of test from  results file: testresults.csv
+2020-01-08 14:48:19,617 INFO o.a.j.r.d.ReportGenerator: Reading report generator properties from: C:\Users\gstarczewski\tools\apache-jmeter-5.2.1\bin\reportgenerator.properties
+2020-01-08 14:48:19,617 INFO o.a.j.r.d.ReportGenerator: Merging with JMeter properties
+2020-01-08 14:48:19,621 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.temp_dir' not found, using default value 'temp' instead.
+2020-01-08 14:48:19,623 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.apdex_per_transaction' not found, using default value 'null' instead.
+2020-01-08 14:48:19,623 INFO o.a.j.r.c.ReportGeneratorConfiguration: apdex_per_transaction is empty, not APDEX per transaction customization
+2020-01-08 14:48:19,623 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.sample_filter' not found, using default value 'null' instead.
+2020-01-08 14:48:19,623 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.report_title' not found, using default value 'null' instead.
+2020-01-08 14:48:19,623 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.start_date' not found, using default value 'null' instead.
+2020-01-08 14:48:19,623 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.end_date' not found, using default value 'null' instead.
+2020-01-08 14:48:19,623 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.date_format' not found, using default value 'null' instead.
+2020-01-08 14:48:19,624 INFO o.a.j.r.c.ReportGeneratorConfiguration: Will use date range start date: null, end date: null
+2020-01-08 14:48:19,638 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.totalTPS.exclude_controllers' not found, using default value 'false' instead.
+2020-01-08 14:48:19,639 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.activeThreadsOverTime.exclude_controllers' not found, using default value 'false' instead.
+2020-01-08 14:48:19,639 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.timeVsThreads.exclude_controllers' not found, using default value 'false' instead.
+2020-01-08 14:48:19,639 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimeDistribution.exclude_controllers' not found, using default value 'false' instead.
+2020-01-08 14:48:19,639 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.transactionsPerSecond.exclude_controllers' not found, using default value 'false' instead.
+2020-01-08 14:48:19,643 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentiles.exclude_controllers' not found, using default value 'false' instead.
+2020-01-08 14:48:19,643 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentilesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2020-01-08 14:48:19,643 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2020-01-08 14:48:19,643 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.connectTimeOverTime.exclude_controllers' not found, using default value 'false' instead.
+2020-01-08 14:48:19,644 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.latenciesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2020-01-08 14:48:19,645 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.filters_only_sample_series' not found, using default value 'true' instead.
+2020-01-08 14:48:19,646 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.series_filter' not found, using default value '' instead.
+2020-01-08 14:48:19,646 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.show_controllers_only' not found, using default value 'false' instead.
+2020-01-08 14:48:19,647 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.filters_only_sample_series' not found, using default value 'true' instead.
+2020-01-08 14:48:19,647 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.series_filter' not found, using default value '' instead.
+2020-01-08 14:48:19,647 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.show_controllers_only' not found, using default value 'false' instead.
+2020-01-08 14:48:19,651 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2020-01-08 14:48:19,652 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2020-01-08 14:48:19,652 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2020-01-08 14:48:19,655 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2020-01-08 14:48:19,655 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2020-01-08 14:48:19,861 INFO o.a.j.JMeter: Running test (1578491299861)
+2020-01-08 14:48:19,863 INFO o.a.j.e.StandardJMeterEngine: Starting setUp thread groups
+2020-01-08 14:48:19,863 INFO o.a.j.e.StandardJMeterEngine: Starting setUp ThreadGroup: 1 : setUp Thread Group 
+2020-01-08 14:48:19,863 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group setUp Thread Group.
+2020-01-08 14:48:19,863 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2020-01-08 14:48:19,863 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2020-01-08 14:48:19,867 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2020-01-08 14:48:19,868 INFO o.a.j.e.StandardJMeterEngine: Waiting for all setup thread groups to exit
+2020-01-08 14:48:19,869 INFO o.a.j.t.JMeterThread: Thread started: setUp Thread Group 1-1
+2020-01-08 14:48:19,871 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2020-01-08 14:48:19,872 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2020-01-08 14:48:19,872 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2020-01-08 14:48:19,872 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2020-01-08 14:48:20,113 INFO o.a.j.p.j.s.J.Configure Environment Properties: Application URL https://bing.com:/
+2020-01-08 14:48:20,113 INFO o.a.j.p.j.s.J.Configure Environment Properties: Environment ENV_PWC_AT_OBJECTIVITY
+2020-01-08 14:48:20,115 INFO o.a.j.t.JMeterThread: Thread is done: setUp Thread Group 1-1
+2020-01-08 14:48:20,115 INFO o.a.j.t.JMeterThread: Thread finished: setUp Thread Group 1-1
+2020-01-08 14:48:20,115 INFO o.a.j.e.StandardJMeterEngine: All Setup Threads have ended
+2020-01-08 14:48:20,162 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Main
+2020-01-08 14:48:20,163 INFO o.a.j.e.StandardJMeterEngine: Starting 20 threads for group Main.
+2020-01-08 14:48:20,163 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2020-01-08 14:48:20,163 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=20 ramp-up=5 delayedStart=false
+2020-01-08 14:48:20,164 INFO o.a.j.t.JMeterThread: Thread started: Main 1-1
+2020-01-08 14:48:20,178 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2020-01-08 14:48:20,178 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2020-01-08 14:48:20,182 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = NBGSTARCZEWSKI
+2020-01-08 14:48:20,186 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2020-01-08 14:48:20,240 INFO o.a.j.p.h.s.h.LazyLayeredConnectionSocketFactory: Setting up HTTPS TrustAll Socket Factory
+2020-01-08 14:48:20,244 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2020-01-08 14:48:20,244 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2020-01-08 14:48:20,415 INFO o.a.j.t.JMeterThread: Thread started: Main 1-2
+2020-01-08 14:48:20,628 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
+2020-01-08 14:48:20,629 INFO o.a.j.u.SSLManager: KeyStore created OK
+2020-01-08 14:48:20,630 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
+2020-01-08 14:48:20,666 INFO o.a.j.t.JMeterThread: Thread started: Main 1-3
+2020-01-08 14:48:20,916 INFO o.a.j.t.JMeterThread: Thread started: Main 1-4
+2020-01-08 14:48:20,960 INFO o.a.j.p.h.p.BaseParser: Created org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-01-08 14:48:21,007 INFO o.a.j.p.h.s.ResourcesDownloader: Creating ResourcesDownloader with keepalive_inseconds : 60
+2020-01-08 14:48:21,037 INFO o.a.j.e.J.Log: Login
+2020-01-08 14:48:21,037 INFO o.a.j.e.J.Log: Login
+2020-01-08 14:48:21,132 INFO o.a.j.e.J.Log: Login
+2020-01-08 14:48:21,164 INFO o.a.j.e.J.Log: Login
+2020-01-08 14:48:21,165 INFO o.a.j.t.JMeterThread: Thread started: Main 1-5
+2020-01-08 14:48:21,279 INFO o.a.j.e.J.Log: Search
+2020-01-08 14:48:21,306 INFO o.a.j.e.J.Log: Search
+2020-01-08 14:48:21,415 INFO o.a.j.t.JMeterThread: Thread started: Main 1-6
+2020-01-08 14:48:21,418 INFO o.a.j.e.J.Log: Search
+2020-01-08 14:48:21,502 INFO o.a.j.e.J.Log: Login
+2020-01-08 14:48:21,664 INFO o.a.j.t.JMeterThread: Thread started: Main 1-7
+2020-01-08 14:48:21,674 INFO o.a.j.e.J.Log: Login
+2020-01-08 14:48:21,813 INFO o.a.j.e.J.Log: Search
+2020-01-08 14:48:21,915 INFO o.a.j.t.JMeterThread: Thread started: Main 1-8
+2020-01-08 14:48:21,942 INFO o.a.j.e.J.Log: Login
+2020-01-08 14:48:22,047 INFO o.a.j.e.J.Log: Search
+2020-01-08 14:48:22,086 INFO o.a.j.e.J.Log: Search
+2020-01-08 14:48:22,164 INFO o.a.j.t.JMeterThread: Thread started: Main 1-9
+2020-01-08 14:48:22,211 INFO o.a.j.e.J.Log: Search
+2020-01-08 14:48:22,305 INFO o.a.j.e.J.Log: Login
+2020-01-08 14:48:22,405 INFO o.a.j.e.J.Log: Search
+2020-01-08 14:48:22,413 INFO o.a.j.t.JMeterThread: Thread started: Main 1-10
+2020-01-08 14:48:22,423 INFO o.a.j.e.J.Log: Login
+2020-01-08 14:48:22,614 INFO o.a.j.e.J.Log: Search
+2020-01-08 14:48:22,665 INFO o.a.j.t.JMeterThread: Thread started: Main 1-11
+2020-01-08 14:48:22,668 INFO o.a.j.e.J.Log: Login
+2020-01-08 14:48:22,888 INFO o.a.j.e.J.Log: Search
+2020-01-08 14:48:22,914 INFO o.a.j.t.JMeterThread: Thread started: Main 1-12
+2020-01-08 14:48:22,920 INFO o.a.j.e.J.Log: Login
+2020-01-08 14:48:23,020 INFO o.a.j.e.J.Log: Search
+2020-01-08 14:48:23,165 INFO o.a.j.t.JMeterThread: Thread started: Main 1-13
+2020-01-08 14:48:23,193 INFO o.a.j.e.J.Log: Login
+2020-01-08 14:48:23,259 INFO o.a.j.e.J.Log: Search
+2020-01-08 14:48:23,333 INFO o.a.j.e.J.Log: Search
+2020-01-08 14:48:23,413 INFO o.a.j.e.J.Log: Search
+2020-01-08 14:48:23,417 INFO o.a.j.t.JMeterThread: Thread started: Main 1-14
+2020-01-08 14:48:23,417 INFO o.a.j.e.J.Log: Login
+2020-01-08 14:48:23,665 INFO o.a.j.t.JMeterThread: Thread started: Main 1-15
+2020-01-08 14:48:23,666 INFO o.a.j.e.J.Log: Login
+2020-01-08 14:48:23,791 INFO o.a.j.e.J.Log: Search
+2020-01-08 14:48:23,809 INFO o.a.j.e.J.Log: Search
+2020-01-08 14:48:23,867 INFO o.a.j.e.J.Log: Search
+2020-01-08 14:48:23,914 INFO o.a.j.t.JMeterThread: Thread started: Main 1-16
+2020-01-08 14:48:23,936 INFO o.a.j.e.J.Log: Login
+2020-01-08 14:48:24,164 INFO o.a.j.t.JMeterThread: Thread started: Main 1-17
+2020-01-08 14:48:24,169 INFO o.a.j.e.J.Log: Login
+2020-01-08 14:48:24,212 INFO o.a.j.e.J.Log: Search
+2020-01-08 14:48:24,346 INFO o.a.j.e.J.Log: Search
+2020-01-08 14:48:24,411 INFO o.a.j.e.J.Log: Login
+2020-01-08 14:48:24,414 INFO o.a.j.t.JMeterThread: Thread started: Main 1-18
+2020-01-08 14:48:24,613 INFO o.a.j.e.J.Log: Search
+2020-01-08 14:48:24,637 INFO o.a.j.e.J.Log: Search
+2020-01-08 14:48:24,662 INFO o.a.j.e.J.Log: Login
+2020-01-08 14:48:24,665 INFO o.a.j.t.JMeterThread: Thread started: Main 1-19
+2020-01-08 14:48:24,914 INFO o.a.j.t.JMeterThread: Thread started: Main 1-20
+2020-01-08 14:48:24,936 INFO o.a.j.e.J.Log: Search
+2020-01-08 14:48:24,938 INFO o.a.j.e.J.Log: Login
+2020-01-08 14:48:25,101 INFO o.a.j.e.J.Log: Search
+2020-01-08 14:48:25,253 INFO o.a.j.e.J.Log: Login
+2020-01-08 14:48:25,326 INFO o.a.j.e.J.Log: Search
+2020-01-08 14:48:25,370 INFO o.a.j.e.J.Log: Search
+2020-01-08 14:48:25,524 INFO o.a.j.e.J.Log: Search
+2020-01-08 14:48:25,557 INFO o.a.j.e.J.Log: Search
+2020-01-08 14:48:25,896 INFO o.a.j.e.J.Log: Search
+2020-01-08 14:48:25,916 INFO o.a.j.e.J.Log: Search
+2020-01-08 14:48:26,018 INFO o.a.j.e.J.Log: Search
+2020-01-08 14:48:26,183 INFO o.a.j.e.J.Log: Search
+2020-01-08 14:48:26,298 INFO o.a.j.e.J.Log: Search
+2020-01-08 14:48:26,705 INFO o.a.j.e.J.Log: Search
+2020-01-08 14:48:26,856 INFO o.a.j.e.J.Log: Search
+2020-01-08 14:48:26,877 INFO o.a.j.e.J.Log: Search
+2020-01-08 14:48:26,961 INFO o.a.j.e.J.Log: Search
+2020-01-08 14:48:27,334 INFO o.a.j.e.J.Log: Search
+2020-01-08 14:48:27,415 INFO o.a.j.e.J.Log: Search
+2020-01-08 14:48:27,507 INFO o.a.j.e.J.Log: Search
+2020-01-08 14:48:27,965 INFO o.a.j.e.J.Log: Search
+2020-01-08 14:48:27,969 INFO o.a.j.e.J.Log: Search
+2020-01-08 14:48:28,104 INFO o.a.j.e.J.Log: Search
+2020-01-08 14:48:28,146 INFO o.a.j.e.J.Log: Search
+2020-01-08 14:48:28,196 INFO o.a.j.e.J.Log: Search
+2020-01-08 14:48:28,199 INFO o.a.j.t.JMeterThread: Thread is done: Main 1-1
+2020-01-08 14:48:28,199 INFO o.a.j.t.JMeterThread: Thread finished: Main 1-1
+2020-01-08 14:48:28,287 INFO o.a.j.e.J.Log: Search
+2020-01-08 14:48:28,290 INFO o.a.j.t.JMeterThread: Thread is done: Main 1-2
+2020-01-08 14:48:28,290 INFO o.a.j.t.JMeterThread: Thread finished: Main 1-2
+2020-01-08 14:48:28,457 INFO o.a.j.e.J.Log: Search
+2020-01-08 14:48:28,554 INFO o.a.j.e.J.Log: Search
+2020-01-08 14:48:28,898 INFO o.a.j.e.J.Log: Search
+2020-01-08 14:48:29,007 INFO o.a.j.e.J.Log: Search
+2020-01-08 14:48:29,010 INFO o.a.j.t.JMeterThread: Thread is done: Main 1-3
+2020-01-08 14:48:29,011 INFO o.a.j.t.JMeterThread: Thread finished: Main 1-3
+2020-01-08 14:48:29,019 INFO o.a.j.e.J.Log: Search
+2020-01-08 14:48:29,161 INFO o.a.j.e.J.Log: Search
+2020-01-08 14:48:29,362 INFO o.a.j.e.J.Log: Search
+2020-01-08 14:48:29,774 INFO o.a.j.e.J.Log: Search
+2020-01-08 14:48:29,791 INFO o.a.j.e.J.Log: Search
+2020-01-08 14:48:29,891 INFO o.a.j.e.J.Log: Search
+2020-01-08 14:48:29,979 INFO o.a.j.e.J.Log: Search
+2020-01-08 14:48:30,363 INFO o.a.j.e.J.Log: Search
+2020-01-08 14:48:30,366 INFO o.a.j.r.Summariser: summary +     78 in 00:00:11 =    7.4/s Avg:   268 Min:   142 Max:   805 Err:     0 (0.00%) Active: 17 Started: 20 Finished: 3
+2020-01-08 14:48:30,367 INFO o.a.j.t.JMeterThread: Thread is done: Main 1-4
+2020-01-08 14:48:30,367 INFO o.a.j.t.JMeterThread: Thread finished: Main 1-4
+2020-01-08 14:48:30,417 INFO o.a.j.e.J.Log: Search
+2020-01-08 14:48:30,514 INFO o.a.j.e.J.Log: Search
+2020-01-08 14:48:30,901 INFO o.a.j.e.J.Log: Search
+2020-01-08 14:48:30,906 INFO o.a.j.e.J.Log: Search
+2020-01-08 14:48:31,114 INFO o.a.j.e.J.Log: Search
+2020-01-08 14:48:31,175 INFO o.a.j.e.J.Log: Search
+2020-01-08 14:48:31,221 INFO o.a.j.e.J.Log: Search
+2020-01-08 14:48:31,231 INFO o.a.j.e.J.Log: Search
+2020-01-08 14:48:31,483 INFO o.a.j.e.J.Log: Search
+2020-01-08 14:48:31,613 INFO o.a.j.e.J.Log: Search
+2020-01-08 14:48:31,616 INFO o.a.j.t.JMeterThread: Thread is done: Main 1-5
+2020-01-08 14:48:31,616 INFO o.a.j.t.JMeterThread: Thread finished: Main 1-5
+2020-01-08 14:48:31,912 INFO o.a.j.e.J.Log: Search
+2020-01-08 14:48:32,048 INFO o.a.j.e.J.Log: Search
+2020-01-08 14:48:32,322 INFO o.a.j.e.J.Log: Search
+2020-01-08 14:48:32,329 INFO o.a.j.e.J.Log: Search
+2020-01-08 14:48:32,333 INFO o.a.j.t.JMeterThread: Thread is done: Main 1-6
+2020-01-08 14:48:32,333 INFO o.a.j.t.JMeterThread: Thread finished: Main 1-6
+2020-01-08 14:48:32,527 INFO o.a.j.e.J.Log: Search
+2020-01-08 14:48:32,538 INFO o.a.j.e.J.Log: Search
+2020-01-08 14:48:32,812 INFO o.a.j.e.J.Log: Search
+2020-01-08 14:48:32,913 INFO o.a.j.e.J.Log: Search
+2020-01-08 14:48:33,333 INFO o.a.j.e.J.Log: Search
+2020-01-08 14:48:33,337 INFO o.a.j.t.JMeterThread: Thread is done: Main 1-7
+2020-01-08 14:48:33,337 INFO o.a.j.t.JMeterThread: Thread finished: Main 1-7
+2020-01-08 14:48:33,504 INFO o.a.j.e.J.Log: Search
+2020-01-08 14:48:33,550 INFO o.a.j.e.J.Log: Search
+2020-01-08 14:48:33,554 INFO o.a.j.e.J.Log: Search
+2020-01-08 14:48:33,630 INFO o.a.j.e.J.Log: Search
+2020-01-08 14:48:33,633 INFO o.a.j.t.JMeterThread: Thread is done: Main 1-8
+2020-01-08 14:48:33,633 INFO o.a.j.t.JMeterThread: Thread finished: Main 1-8
+2020-01-08 14:48:33,677 INFO o.a.j.e.J.Log: Search
+2020-01-08 14:48:34,041 INFO o.a.j.e.J.Log: Search
+2020-01-08 14:48:34,044 INFO o.a.j.t.JMeterThread: Thread is done: Main 1-9
+2020-01-08 14:48:34,044 INFO o.a.j.t.JMeterThread: Thread finished: Main 1-9
+2020-01-08 14:48:34,063 INFO o.a.j.e.J.Log: Search
+2020-01-08 14:48:34,122 INFO o.a.j.e.J.Log: Search
+2020-01-08 14:48:34,519 INFO o.a.j.e.J.Log: Search
+2020-01-08 14:48:34,665 INFO o.a.j.e.J.Log: Search
+2020-01-08 14:48:34,670 INFO o.a.j.t.JMeterThread: Thread is done: Main 1-10
+2020-01-08 14:48:34,671 INFO o.a.j.t.JMeterThread: Thread finished: Main 1-10
+2020-01-08 14:48:34,696 INFO o.a.j.e.J.Log: Search
+2020-01-08 14:48:34,927 INFO o.a.j.e.J.Log: Search
+2020-01-08 14:48:34,930 INFO o.a.j.t.JMeterThread: Thread is done: Main 1-11
+2020-01-08 14:48:34,930 INFO o.a.j.t.JMeterThread: Thread finished: Main 1-11
+2020-01-08 14:48:35,037 INFO o.a.j.e.J.Log: Search
+2020-01-08 14:48:35,183 INFO o.a.j.e.J.Log: Search
+2020-01-08 14:48:35,393 INFO o.a.j.e.J.Log: Search
+2020-01-08 14:48:35,400 INFO o.a.j.t.JMeterThread: Thread is done: Main 1-13
+2020-01-08 14:48:35,401 INFO o.a.j.t.JMeterThread: Thread finished: Main 1-13
+2020-01-08 14:48:35,495 INFO o.a.j.e.J.Log: Search
+2020-01-08 14:48:35,499 INFO o.a.j.t.JMeterThread: Thread is done: Main 1-14
+2020-01-08 14:48:35,499 INFO o.a.j.t.JMeterThread: Thread finished: Main 1-14
+2020-01-08 14:48:35,518 INFO o.a.j.e.J.Log: Search
+2020-01-08 14:48:35,522 INFO o.a.j.t.JMeterThread: Thread is done: Main 1-12
+2020-01-08 14:48:35,522 INFO o.a.j.t.JMeterThread: Thread finished: Main 1-12
+2020-01-08 14:48:35,549 INFO o.a.j.e.J.Log: Search
+2020-01-08 14:48:35,695 INFO o.a.j.e.J.Log: Search
+2020-01-08 14:48:35,698 INFO o.a.j.t.JMeterThread: Thread is done: Main 1-15
+2020-01-08 14:48:35,698 INFO o.a.j.t.JMeterThread: Thread finished: Main 1-15
+2020-01-08 14:48:36,028 INFO o.a.j.e.J.Log: Search
+2020-01-08 14:48:36,031 INFO o.a.j.t.JMeterThread: Thread is done: Main 1-17
+2020-01-08 14:48:36,031 INFO o.a.j.t.JMeterThread: Thread finished: Main 1-17
+2020-01-08 14:48:36,143 INFO o.a.j.e.J.Log: Search
+2020-01-08 14:48:36,153 INFO o.a.j.t.JMeterThread: Thread is done: Main 1-16
+2020-01-08 14:48:36,153 INFO o.a.j.t.JMeterThread: Thread finished: Main 1-16
+2020-01-08 14:48:36,277 INFO o.a.j.e.J.Log: Search
+2020-01-08 14:48:36,279 INFO o.a.j.t.JMeterThread: Thread is done: Main 1-18
+2020-01-08 14:48:36,280 INFO o.a.j.t.JMeterThread: Thread finished: Main 1-18
+2020-01-08 14:48:36,386 INFO o.a.j.e.J.Log: Search
+2020-01-08 14:48:36,389 INFO o.a.j.t.JMeterThread: Thread is done: Main 1-20
+2020-01-08 14:48:36,389 INFO o.a.j.t.JMeterThread: Thread finished: Main 1-20
+2020-01-08 14:48:36,728 INFO o.a.j.e.J.Log: Search
+2020-01-08 14:48:36,737 INFO o.a.j.t.JMeterThread: Thread is done: Main 1-19
+2020-01-08 14:48:36,737 INFO o.a.j.t.JMeterThread: Thread finished: Main 1-19
+2020-01-08 14:48:36,738 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2020-01-08 14:48:36,739 INFO o.a.j.r.Summariser: summary +     43 in 00:00:06 =    6.7/s Avg:   280 Min:   162 Max:   583 Err:     0 (0.00%) Active: 0 Started: 20 Finished: 20
+2020-01-08 14:48:36,740 INFO o.a.j.r.Summariser: summary =    121 in 00:00:17 =    7.2/s Avg:   272 Min:   142 Max:   805 Err:     0 (0.00%)
+2020-01-08 14:48:36,741 INFO o.a.j.JMeter: Generating Dashboard
+2020-01-08 14:48:36,741 INFO o.a.j.r.d.ReportGenerator: Flushing result collector before report Generation
+2020-01-08 14:48:36,754 INFO o.a.j.r.p.NormalizerSampleConsumer: Using format, 'ms', to parse timeStamp field
+2020-01-08 14:48:36,837 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): beginDate produced 0 samples
+2020-01-08 14:48:36,837 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): endDate produced 0 samples
+2020-01-08 14:48:36,839 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ApdexSummaryConsumer#stopProducing(): apdexSummary produced 0 samples
+2020-01-08 14:48:36,839 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.RequestsSummaryConsumer#stopProducing(): requestsSummary produced 0 samples
+2020-01-08 14:48:36,843 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.StatisticsSummaryConsumer#stopProducing(): statisticsSummary produced 0 samples
+2020-01-08 14:48:36,846 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.Top5ErrorsBySamplerConsumer#stopProducing(): top5ErrorsBySampler produced 0 samples
+2020-01-08 14:48:36,846 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ErrorsSummaryConsumer#stopProducing(): errorsSummary produced 0 samples
+2020-01-08 14:48:36,846 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.HitsPerSecondGraphConsumer#stopProducing(): hitsPerSecond produced 0 samples
+2020-01-08 14:48:36,862 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyVSRequestGraphConsumer#stopProducing(): latencyVsRequest produced 0 samples
+2020-01-08 14:48:36,862 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.SyntheticResponseTimeDistributionGraphConsumer#stopProducing(): syntheticResponseTimeDistribution produced 0 samples
+2020-01-08 14:48:36,863 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.BytesThroughputGraphConsumer#stopProducing(): bytesThroughputOverTime produced 0 samples
+2020-01-08 14:48:36,863 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.CodesPerSecondGraphConsumer#stopProducing(): codesPerSecond produced 0 samples
+2020-01-08 14:48:36,870 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeVSRequestGraphConsumer#stopProducing(): responseTimeVsRequest produced 0 samples
+2020-01-08 14:48:36,871 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): startIntervalControlerFilter produced 3227 samples
+2020-01-08 14:48:36,871 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TotalTPSGraphConsumer#stopProducing(): totalTPS produced 0 samples
+2020-01-08 14:48:36,871 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ActiveThreadsGraphConsumer#stopProducing(): activeThreadsOverTime produced 0 samples
+2020-01-08 14:48:36,871 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TimeVSThreadGraphConsumer#stopProducing(): timeVsThreads produced 0 samples
+2020-01-08 14:48:36,872 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeDistributionGraphConsumer#stopProducing(): responseTimeDistribution produced 0 samples
+2020-01-08 14:48:36,872 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TransactionsPerSecondGraphConsumer#stopProducing(): transactionsPerSecond produced 0 samples
+2020-01-08 14:48:36,872 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesGraphConsumer#stopProducing(): responseTimePercentiles produced 0 samples
+2020-01-08 14:48:36,876 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesOverTimeGraphConsumer#stopProducing(): responseTimePercentilesOverTime produced 0 samples
+2020-01-08 14:48:36,876 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeOverTimeGraphConsumer#stopProducing(): responseTimesOverTime produced 0 samples
+2020-01-08 14:48:36,876 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ConnectTimeOverTimeGraphConsumer#stopProducing(): connectTimeOverTime produced 0 samples
+2020-01-08 14:48:36,876 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyOverTimeGraphConsumer#stopProducing(): latenciesOverTime produced 0 samples
+2020-01-08 14:48:36,876 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): nameFilter produced 6915 samples
+2020-01-08 14:48:36,876 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): dateRangeFilter produced 1383 samples
+2020-01-08 14:48:36,876 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.NormalizerSampleConsumer#stopProducing(): normalizer produced 461 samples
+2020-01-08 14:48:36,877 INFO o.a.j.r.p.CsvFileSampleSource: produce(): 461 samples produced in 102ms on channel 0
+2020-01-08 14:48:36,877 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'json' of className:'org.apache.jmeter.report.dashboard.JsonExporter'
+2020-01-08 14:48:36,878 INFO o.a.j.r.d.JsonExporter: Found data for consumer statisticsSummary in context
+2020-01-08 14:48:36,878 INFO o.a.j.r.d.JsonExporter: Creating statistics for overall
+2020-01-08 14:48:36,878 INFO o.a.j.r.d.JsonExporter: Creating statistics for other transactions
+2020-01-08 14:48:36,879 INFO o.a.j.r.d.JsonExporter: Checking output folder
+2020-01-08 14:48:36,879 INFO o.a.j.r.d.JsonExporter: Writing statistics JSON to C:\Users\gstarczewski\tools\apache-jmeter-5.2.1\scripts\PWC\SC\report\statistics.json
+2020-01-08 14:48:36,995 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'html' of className:'org.apache.jmeter.report.dashboard.HtmlTemplateExporter'
+2020-01-08 14:48:36,998 INFO o.a.j.r.d.HtmlTemplateExporter: Will generate dashboard in folder: C:\Users\gstarczewski\tools\apache-jmeter-5.2.1\scripts\PWC\SC\report
+2020-01-08 14:48:37,060 INFO o.a.j.r.d.HtmlTemplateExporter: Report will be generated in: C:\Users\gstarczewski\tools\apache-jmeter-5.2.1\scripts\PWC\SC\report, creating folder structure
+2020-01-08 14:48:37,062 INFO o.a.j.r.d.TemplateVisitor: Copying folder from 'C:\Users\gstarczewski\tools\apache-jmeter-5.2.1\bin\report-template' to 'C:\Users\gstarczewski\tools\apache-jmeter-5.2.1\scripts\PWC\SC\report', got message: C:\Users\gstarczewski\tools\apache-jmeter-5.2.1\scripts\PWC\SC\report, found non empty folder with following content [C:\Users\gstarczewski\tools\apache-jmeter-5.2.1\scripts\PWC\SC\report\statistics.json], will be ignored
+2020-01-08 14:48:37,334 INFO o.a.j.JMeter: Dashboard generated
